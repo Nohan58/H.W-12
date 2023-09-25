@@ -1,0 +1,79 @@
+/* =========== Common Css Start =========== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* =========== Common Css End =========== */
+/* =========== Top Bar Section Css Start =========== */
+#top_bar{
+    background-color: #0f2f44;
+}
+#top_bar p{
+    color: #fefefe;
+    padding: 13px 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* =========== Top Bar Section Css End =========== */
+
+/* =========== Nav Bar Section Css Start =========== */
+#primary_nav .row{
+    align-items: center;
+}
+#primary_nav ul li a{
+    font-weight: 500;
+    color: #0f2f44;
+    text-transform: capitalize;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 40px 19px;
+    transition: .6s;
+}
+#primary_nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#primary_nav ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    background: none;
+    margin-left: 20px;
+}
+#primary_nav ul li button:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+}
+/* =========== Nav Bar Section Css End =========== */
